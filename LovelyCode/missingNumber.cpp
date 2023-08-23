@@ -19,16 +19,40 @@ int missingNumber(vector<int> &nums)
     }
     return 0;
 }
-void test(vector<int> v)
+// using the Sum of natural nof  ----optimal soltion
+int missingNumber(vector<int> &nums)
 {
-    int n = v.size();
-    cout << n;
+    int n = nums.size();
+    int snat = n * (n + 1) / 2;
+    int s = 0;
+    for (auto a : nums)
+    {
+        s += a;
+    }
+
+    return snat - s;
+}
+// best optimal solution by xor maathod
+int missingNumber(vector<int> &nums)
+{
+    int n = nums.size();
+    int xor1 = 0;
+    for (int i = 1; i <= n; i++)
+    {
+        xor1 ^= i;
+    }
+    int xor2 = 0;
+    for (auto a : nums)
+    {
+        xor2 ^= a;
+    }
+    return xor1 ^ xor2;
 }
 
 int main()
 {
     vector<int> n = {9, 6, 4, 2, 3, 5, 7, 0, 1};
-    // missingNumber(n);
-    test(n);
+    missingNumber(n);
+
     return 0;
 }
