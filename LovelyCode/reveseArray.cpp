@@ -14,6 +14,20 @@ vector<int> reverseArray(int n, vector<int> &nums)
     }
     return nums;
 }
+/* with the help of reccursion
+
+void reveseHelper(int s,int l,vector<int>&vc)
+{   
+      if(s>l)
+        return;
+     swap(vc[s],vc[l]);
+     reveseHelper(s+1,l-1, vc);
+}
+vector<int> reverseArray(int n, vector<int> &nums)
+{  reveseHelper(0,n-1,nums); 
+   return nums;     
+}
+ */
 int main()
 {
     int i = 0;
