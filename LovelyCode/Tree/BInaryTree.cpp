@@ -40,7 +40,7 @@ void postOrder(TreeNode *root)
 }
 void levelTraversal(TreeNode *root)
 {
-    vector<vector<int>> ans;
+    
 
     if (root == NULL)
         return;
