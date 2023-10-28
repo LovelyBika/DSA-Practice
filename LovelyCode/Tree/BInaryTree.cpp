@@ -60,6 +60,22 @@ void levelTraversal(TreeNode *root)
         }
         
     }
+//create BinaryTree
+Node * solve(vector<int>&vc,int index){
+    Node *root=new Node(vc[index]);
+    int n= vc.size();
+    if(index>=n)
+     return nullptr;
+     else {
+         root->left=solve(vc,2*index+1);
+         root->right=solve(vc,2*index+2);
+     }
+     return root;
+}
+Node* createTree(vector<int>&arr){
+   return solve(arr,0);
+   
+}
     
 
 int main()
