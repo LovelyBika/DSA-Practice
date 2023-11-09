@@ -4,11 +4,13 @@ int assignCookie(vector<int> &greed, vector<int> &size) {
 	sort(greed.begin(),greed.end());
 	sort(size.begin(),size.end());
 	int j=size.size()-1;
+	if(j>=0){
 	for(int i=greed.size()-1;i>=0;i--){
-		if(size[j]>=greed[i]){
+		if(j>=0 && size[j]>=greed[i]){
 			count++;
 			j--;
 		}
+	}
 	}
 return count ;
 
