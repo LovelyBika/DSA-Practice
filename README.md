@@ -8,14 +8,6 @@ Our motivation for creating this community is to provide a platform for develope
 ## Problem Solving Approach
 We encourage members of this community to solve problems using different approaches and programming languages. This will help us learn from each other and broaden our understanding of DSA concepts. We also encourage members to share their solutions and explain their thought process.
 
-## Contribution Guidelines
-We welcome contributions from all members of the community. If you would like to contribute, please follow these guidelines:
-
-- Fork the repository and create a new branch for your contribution.
-- Solve a DSA problem and add your solution to the `solutions` folder. Please include comments explaining your thought process and approach.
-- If you find a bug or issue with an existing solution, please create a new issue and describe the problem.
-- When you are ready to submit your contribution, create a pull request and describe your changes.
-
 ## Getting Started
 To get started with this community, please follow these steps:
 
