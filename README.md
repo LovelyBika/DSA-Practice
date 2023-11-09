@@ -20,9 +20,3 @@ To get started with this community, please follow these steps:
 ## Conclusion
 We hope that this community will help you improve your DSA skills and become a better developer. If you have any questions or suggestions, please feel free to reach out to the admin. Happy problem solving!
 
-Citations:
-[1] https://www.freecodecamp.org/news/how-to-write-a-good-readme-file/
-[2] https://www.masaischool.com/blog/how-to-create-an-effective-github-project-readme-2/
-[3] https://www.geeksforgeeks.org/what-is-readme-md-file/
-[4] https://www.geeksforgeeks.org/what-is-github-readme-file-and-markdown/
-[5] https://www.sitepoint.com/github-profile-readme/
