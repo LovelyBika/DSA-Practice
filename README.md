@@ -7,7 +7,7 @@ Welcome to the **DSA (Data Structures and Algorithms)** repository! This project
 This repository aims to be a comprehensive resource for common data structures and algorithms used in computer science. Contributions should focus on:
 
 - Well-documented and easy-to-understand solutions.
-- Implementation in various languages like C++, Java, Python, etc.
+- Implementation in C++ languages 
 - Efficiency and readability.
 
 ## 🚀 Contribution Guidelines
